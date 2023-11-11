@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-
+            HostApplicationBuilder builder = new Host.CreateApplicationBuilder(args);
         }
     }
 }
